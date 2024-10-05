@@ -26,7 +26,7 @@ class Classifier:
 class Meso4(Classifier):
     def __init__(self, learning_rate = 0.001):
         self.model = self.init_model()
-        optimizer = Adam(lr = learning_rate)
+        optimizer = Adam(learning_rate = learning_rate)
         self.model.compile(optimizer = optimizer, loss = 'mean_squared_error', metrics = ['accuracy'])
     
     def init_model(self): 
