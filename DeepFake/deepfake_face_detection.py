@@ -2,7 +2,7 @@ import dlib
 import numpy as np
 import cv2
 import sys
-sys.path.append('/content/ArchivosCap4/DeepFake')
+sys.path.append('/content/ArchivosCap4/')
 from deepfake_face_points_detection import face_points_detection
 
 
