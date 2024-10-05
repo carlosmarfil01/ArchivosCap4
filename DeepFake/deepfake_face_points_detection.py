@@ -2,7 +2,7 @@
 import dlib
 import numpy as np
 
-PREDICTOR_PATH = 'deepfake_models/shape_predictor_68_face_landmarks.dat'
+PREDICTOR_PATH = '/content/ArchivosCap4/DeepFake/deepfake_models/shape_predictor_68_face_landmarks.dat'
 predictor = dlib.shape_predictor(PREDICTOR_PATH)
 ## Face and points detection
 def face_points_detection(img, bbox:dlib.rectangle):
